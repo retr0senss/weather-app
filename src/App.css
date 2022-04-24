@@ -1,3 +1,9 @@
+html,
+body {
+  height: 100%;
+  background: url(https://images.unsplash.com/photo-1428908728789-d2de25dbd4e2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9);
+}
+
 .App {
   text-align: center;
 }
@@ -5,6 +11,42 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.card-img-top {
+  background-color: #04c49c;
+}
+
+.container {
+  max-width: 500px;
+  height: 400px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.card {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0px;
+  margin: auto;
+}
+
+.spinner-border {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.input-group button {
+  margin-left: 5px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
